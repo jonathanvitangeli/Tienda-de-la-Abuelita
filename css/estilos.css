@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  margin: 0;
+  background-color: khaki;
+}
+header {
+  height: 140px;
+  width: 100%;
+  padding: 30px;
+  font-size: 50px;
+  background-color: goldenrod;
+}
+
+header ul li {
+  font-size: 20px;
+  margin-right: 10;
+  list-style: none;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+}
+
+main .contenedor{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: goldenrod;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 1rem;
+  padding: 1rem;
+}
+.grid-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.cats-row{
+  display: grid;
+  margin: 2.5rem;
+  padding:2rem
+  
+}
+#t1:hover{ 
+  transition: all 2s;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px 0 black;
+}
+#t1{
+  transition: height 2s;
+}
+.item{
+  padding: 1rem;
+  margin: 1rem;
+}
+.producto{
+  background-color: gray;
+  margin: 2rem;
+  padding: 2rem;
+  width: 375px;
+}
+.producto:hover{
+  box-shadow: 0 8px 16px 0 black;
+}
+div .producto img{
+  width: 300px;
+  height: 250px;
+}
+.producto-informacion{
+  background-color: white;
+  height: 1rem;
+  object-fit: contain;
+  padding: 1rem;
+}
+.producto-precio,
+.producto-nombre{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.producto-precio{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.producto-nombre{
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+img{
+  height: 12rem;
+  
+}
+.nosotros-texto{
+  text-align: center;
+  font-size: 30px;
+
+}
+.bloque{
+  margin: 3rem;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 25px;
+}
+.footer {
+  background-color: black;
+  padding: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 1rem;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
